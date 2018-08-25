@@ -16,10 +16,10 @@ Analysis File Description
 
  Dplyr, datasets and tidyr packages were required to run this script.
  
- When you run the script, it will read test, y_test and test_X data, as well as train, y_train and train_X data and merge them into one big data set called table.  Each variables were names accordingly based on the features listed in the features.txt file.
+ When you run the script, it will read test, y_test and test_X data, as well as train, y_train and train_X data and merge them into one big data set called table.  
 
 The script extracts all columns, which names contains "mean" and "std" so we can have all data which tells us about avarage results and standard diviations. 
 
 All activities has names given in the 'activity_labels.txt' file. Column names are taken from the 'features.txt' one. 
 
-Using the combined data set, independent tidy data set with the average of each variable for each activity and each subject was created and calles as 'final'. 
+Using the combined data set, independent tidy data set with the average of each variable for each activity and each subject was created and called as 'final'. 
