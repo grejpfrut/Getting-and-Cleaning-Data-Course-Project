@@ -1,5 +1,5 @@
 run_analysis.R <- 
-        setwd("/Users/maria/Desktop/kurs/kurs3/UCI HAR Dataset")
+       
 ##SUBJECT
 subject_test <- read.table("test/subject_test.txt", sep = ",")
 subject_train <- read.table("train/subject_train.txt", sep = ",")
